@@ -183,3 +183,81 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] shutdown requested via /__/quitquitquit
 
 [info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-08-06T21:44:29.663Z] File /Users/maxespinosa/c11/final-project/whisker-watch/whisker-watch/whisker-watch-api/functions/src/animals.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/maxespinosa/c11/final-project/whisker-watch/whisker-watch/whisker-watch-api/functions/src/animals.js changed, reloading triggers"}}
+[debug] [2023-08-06T21:44:30.667Z] Validating nodejs source
+[debug] [2023-08-06T21:44:31.452Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "type": "module",
+  "scripts": {
+    "serve": "firebase emulators:start",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.10.1",
+    "firebase-functions": "^4.4.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-06T21:44:31.452Z] Building nodejs source
+[debug] [2023-08-06T21:44:31.452Z] Failed to find version of module node: reached end of search path /Users/maxespinosa/c11/final-project/whisker-watch/whisker-watch/whisker-watch-api/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-08-06T21:44:31.454Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-06T21:44:31.455Z] Found firebase-functions binary at '/Users/maxespinosa/c11/final-project/whisker-watch/whisker-watch/whisker-watch-api/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8817
+
+[debug] [2023-08-06T21:44:31.944Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":10,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-08-06T21:45:17.786Z] File /Users/maxespinosa/c11/final-project/whisker-watch/whisker-watch/whisker-watch-api/functions/src/animals.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/maxespinosa/c11/final-project/whisker-watch/whisker-watch/whisker-watch-api/functions/src/animals.js changed, reloading triggers"}}
+[debug] [2023-08-06T21:45:18.788Z] Validating nodejs source
+[debug] [2023-08-06T21:45:19.422Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "type": "module",
+  "scripts": {
+    "serve": "firebase emulators:start",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.10.1",
+    "firebase-functions": "^4.4.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-06T21:45:19.422Z] Building nodejs source
+[debug] [2023-08-06T21:45:19.422Z] Failed to find version of module node: reached end of search path /Users/maxespinosa/c11/final-project/whisker-watch/whisker-watch/whisker-watch-api/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-08-06T21:45:19.422Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-06T21:45:19.423Z] Found firebase-functions binary at '/Users/maxespinosa/c11/final-project/whisker-watch/whisker-watch/whisker-watch-api/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8638
+
+[debug] [2023-08-06T21:45:19.877Z] Got response from /__/functions.yaml {"endpoints":{"api":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":10,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}

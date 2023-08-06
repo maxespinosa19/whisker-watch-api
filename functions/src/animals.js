@@ -17,13 +17,13 @@ export async function getAnimalForms(req, res) {
 
 //add
 export async function addAnimalForms(req, res) {
-  const { tag, name, imageURL, location, temperament, description } = req.body
+  const { tag, name, imageURL, location, temperament, description, address, zip, state, city} = req.body
 
   if (!tag || !name || !temperament || !description) {
     res.status(400).send({ error: "Incomplete Request." })
     return;
   }
-  const newAnimalForm = { tag, name, imageURL, location, temperament, description }
+  const newAnimalForm = { tag, name, imageURL, location, temperament, description, address, zip, state, city }
 
   await coll.add(newAnimalForm); //promise returned
   getAnimalForms(req, res);
